@@ -14,9 +14,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        displayUIUI()
     }
 
-
+    func displayUIUI(){
+        print("upload")
+    }
 }
 
